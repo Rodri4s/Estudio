@@ -1,6 +1,6 @@
-from PIL import Image
+import image
+p = image.Pixel(45, 76, 200)
 
-p = Image.Pixel(45, 76, 200)
 print(p.getRed())
 p.setRed(66)
 print(p.getRed())
